@@ -5,10 +5,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class App {
+	
+	//private HomeSession sess;
 
 	@RequestMapping("/")
 	public String getHome(){
-		
+	//	System.out.println(sess.getHome());
 		return "home";
 	}
 	
